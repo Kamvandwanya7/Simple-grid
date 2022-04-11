@@ -87,8 +87,6 @@ p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  /* float: lefṭ; */
-  /* display: flex; */
 }
 
 .justify {
@@ -113,6 +111,7 @@ p {
   float: left;
   margin: 0.5rem 2%;
   min-height: 0.125rem;
+  text-align: justify;
 }
 
 .col-1,
@@ -190,45 +189,11 @@ p {
   display: none;
 }
 
-
-/* .buildings{
-  display: flex;
-} */
-/* .built{
-  font-size: 1.0em;
-  float: left;
-  padding-left: 2%;
-  flex-wrap: wrap;
-  text-align: justify;
-} */
 .wrap{
  text-align: justify;
  
 }
-.intro{
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  /* display: inline-block; */
-  /* display: grid; */
-}
-/* .pic{
-  display: inline-block;
-  /* vertical-align: top; */
-  /* display: center; */
-  /* padding-right: 18%; */
-  /* margin-left: 10%; */
-  /* justify-content: center; */
-  /* display: flex; */
-} */ */
-/* .pictureBox{
-  float: left;
-  width: 300px;
-  /* height: 260px; */
-  /* padding: 0 10px 0 0; */
-/* .introduction{
-  display: inline-block;
-} */
+
 img{
   height: fit-content;
 }
@@ -238,6 +203,7 @@ img{
     width: 80%;
   }
 }
+
 
 @media only screen and (min-width: 45em) {  /* 720px */
   .col-1 {
@@ -254,7 +220,7 @@ img{
 
   .col-4 {
     width: 29.33%;
-    /* flex: right; */
+    float: left;
   }
 
   .col-5 {

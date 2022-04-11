@@ -43,8 +43,14 @@ td {
     }
 
     .kay {
-        width: 300px;
-        height: 350px;
+        width: 250px;
+        height: 300px;
         align-self: center;
+    }
+
+    .durbs{
+        width: 250px;
+        height: 200px;
+        padding-left: 15%;
     }
 }

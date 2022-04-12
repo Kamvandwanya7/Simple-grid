@@ -32,7 +32,7 @@ td {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 320px) and (max-width: 780px) {
     .top-container {
         flex-direction: column;
     }
@@ -42,13 +42,18 @@ td {
         height: 230px;
     }
 
+    .image {
+        float: right;
+        padding-left: 10px;
+    }
+
     .kay {
         width: 250px;
         height: 300px;
         align-self: center;
     }
 
-    .durbs{
+    .durbs {
         width: 250px;
         height: 200px;
         padding-left: 15%;
